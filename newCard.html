@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>RecipeCard</title>
+    
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalise/1.0.0/modern-normalise.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script src='main.js'></script>
+
+    <style>
+        
+        .recipe-card {
+            margin-left: 40px;
+    box-sizing: border-box; /* Include padding and border in the card's size */
+    width: 100%; /* Ensure cards take full width within the grid */
+            max-width: none;
+    }
+    
+    </style>
+    
+</head>
+<body>
+    
+    <div class="recipe-grid">
+<div class="recipe-card">
+    <figure>
+        <img src="https://www.iwmbuzz.com/wp-content/uploads/2021/02/bored-of-eating-same-food-try-this-indo-chinese-food-hakka-noodles-simple-and-easy-to-make-920x518.jpeg" alt="Cover image" />
+    </figure>
+    
+    <div class="card-meta">
+        <p class="dish-type">Main Course</p>
+        
+        <ul class="dish-stats">
+            <li>
+				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 2C4.6875 2 2 4.6875 2 8C2 11.3125 4.6875 14 8 14C11.3125 14 14 11.3125 14 8C14 4.6875 11.3125 2 8 2Z" stroke-miterlimit="10"/>
+					<path d="M8 4V8.5H11" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				30 min
+			</li>
+            <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="heart-icon" onclick="toggleLike()">
+                    <path d="M4.9713 2.5C7.00005 2.5 8.00005 4.5 8.00005 4.5C8.00005 4.5 9.00005 2.5 11.0288 2.5C12.6775 2.5 13.9832 3.87937 14 5.52531C14.0344 8.94187 11.2897 11.3716 8.2813 13.4134C8.19836 13.4699 8.10036 13.5 8.00005 13.5C7.89973 13.5 7.80174 13.4699 7.7188 13.4134C4.71067 11.3716 1.96598 8.94187 2.00005 5.52531C2.01692 3.87937 3.32255 2.5 4.9713 2.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="like-count">21</span>
+            </li>
+        </ul>
+    </div> <!-- end card-meta -->
+    
+    <h1>Indo-Chinese Veg Hakka Noodles</h1>
+    
+    <p class="recipe-description">
+        This delicious Indo-Chinese Veg Hakka Noodles recipe is quick and easy to make. It's the perfect snack for any occasion!
+    </p>
+    
+    <div class="read-more">
+        <a href="detailed_recipe.html">Read More</a>
+    </div>
+</div>  <!-- end recipe-card -->
+
+
+<div class="recipe-card">
+    <figure>
+        <img src="https://images.slurrp.com/prod/recipe_images/transcribe/ankush/Steamed-Pork-momo.webp" alt="Cover image" />
+    </figure>
+    
+    <div class="card-meta" >
+        <p class="dish-type">Snacks</p>
+        
+        <ul class="dish-stats">
+            <li>
+				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 2C4.6875 2 2 4.6875 2 8C2 11.3125 4.6875 14 8 14C11.3125 14 14 11.3125 14 8C14 4.6875 11.3125 2 8 2Z" stroke-miterlimit="10"/>
+					<path d="M8 4V8.5H11" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				50 min
+			</li>
+            <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="heart-icon2" onclick="toggleLike2()">
+                    <path d="M4.9713 2.5C7.00005 2.5 8.00005 4.5 8.00005 4.5C8.00005 4.5 9.00005 2.5 11.0288 2.5C12.6775 2.5 13.9832 3.87937 14 5.52531C14.0344 8.94187 11.2897 11.3716 8.2813 13.4134C8.19836 13.4699 8.10036 13.5 8.00005 13.5C7.89973 13.5 7.80174 13.4699 7.7188 13.4134C4.71067 11.3716 1.96598 8.94187 2.00005 5.52531C2.01692 3.87937 3.32255 2.5 4.9713 2.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="like-count2">45</span>
+            </li>
+        </ul>
+    </div> <!-- end card-meta -->
+    
+    <h1>Dim Sum</h1>
+    
+    <p class="recipe-description">
+        Dimsum, a steamed or fried dumpling stuffed with mixed vegetables, is a delicious snack food. Enjoy them with spicy red tomato chilli chutney.
+    </p>
+    
+    <div class="read-more">
+        <a href="detailed_recipe2.html">Read More</a>
+    </div>
+</div>  <!-- end recipe-card -->
+
+<div class="recipe-card">
+    <figure>
+        <img src="https://butteroverbae.com/wp-content/uploads/2020/10/karachi-chicken-biryani-11.jpg" alt="Cover image" />
+    </figure>
+    
+    <div class="card-meta" >
+        <p class="dish-type">Main Course</p>
+        
+        <ul class="dish-stats">
+            <li>
+				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 2C4.6875 2 2 4.6875 2 8C2 11.3125 4.6875 14 8 14C11.3125 14 14 11.3125 14 8C14 4.6875 11.3125 2 8 2Z" stroke-miterlimit="10"/>
+					<path d="M8 4V8.5H11" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				75 min
+			</li>
+            <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="heart-icon2" onclick="toggleLike2()">
+                    <path d="M4.9713 2.5C7.00005 2.5 8.00005 4.5 8.00005 4.5C8.00005 4.5 9.00005 2.5 11.0288 2.5C12.6775 2.5 13.9832 3.87937 14 5.52531C14.0344 8.94187 11.2897 11.3716 8.2813 13.4134C8.19836 13.4699 8.10036 13.5 8.00005 13.5C7.89973 13.5 7.80174 13.4699 7.7188 13.4134C4.71067 11.3716 1.96598 8.94187 2.00005 5.52531C2.01692 3.87937 3.32255 2.5 4.9713 2.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="like-count2">65</span>
+            </li>
+        </ul>
+    </div> <!-- end card-meta -->
+    
+    <h1>Chicken Biryani</h1>
+    
+    <p class="recipe-description">
+        Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.
+    </p>
+    
+    <div class="read-more">
+        <a href="detailed_recipe2.html">Read More</a>
+    </div>
+</div>
+
+<div class="recipe-card">
+    <figure>
+        <img src="https://www.daringgourmet.com/wp-content/uploads/2023/06/Dosa-Recipe-3.jpg" alt="Cover image" />
+    </figure>
+    
+    <div class="card-meta" >
+        <p class="dish-type">Main Course</p>
+        
+        <ul class="dish-stats">
+            <li>
+				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 2C4.6875 2 2 4.6875 2 8C2 11.3125 4.6875 14 8 14C11.3125 14 14 11.3125 14 8C14 4.6875 11.3125 2 8 2Z" stroke-miterlimit="10"/>
+					<path d="M8 4V8.5H11" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			10 mins 
+			</li>
+            <li>plus overnight fermenting</li>
+            <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="heart-icon2" onclick="toggleLike2()">
+                    <path d="M4.9713 2.5C7.00005 2.5 8.00005 4.5 8.00005 4.5C8.00005 4.5 9.00005 2.5 11.0288 2.5C12.6775 2.5 13.9832 3.87937 14 5.52531C14.0344 8.94187 11.2897 11.3716 8.2813 13.4134C8.19836 13.4699 8.10036 13.5 8.00005 13.5C7.89973 13.5 7.80174 13.4699 7.7188 13.4134C4.71067 11.3716 1.96598 8.94187 2.00005 5.52531C2.01692 3.87937 3.32255 2.5 4.9713 2.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="like-count2">35</span>
+            </li>
+        </ul>
+    </div> <!-- end card-meta -->
+    
+    <h1>Masala Dosa</h1>
+    
+    <p class="recipe-description">
+        A dosa is a thin savory crepe in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are served hot, often with chutney and sambar.
+    </p>
+    
+    <div class="read-more">
+        <a href="detailed_recipe2.html">Read More</a>
+    </div>
+</div>
+
+<div class="recipe-card">
+    <figure>
+        <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Madhuli_Ajay/Makai_Dhokla_Savoury_steamed_Corn_cakes.jpg" alt="Cover image" />
+    </figure>
+    
+    <div class="card-meta" >
+        <p class="dish-type">Snacks</p>
+        
+        <ul class="dish-stats">
+            <li>
+				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 2C4.6875 2 2 4.6875 2 8C2 11.3125 4.6875 14 8 14C11.3125 14 14 11.3125 14 8C14 4.6875 11.3125 2 8 2Z" stroke-miterlimit="10"/>
+					<path d="M8 4V8.5H11" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				30 min
+			</li>
+            <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="heart-icon2" onclick="toggleLike2()">
+                    <path d="M4.9713 2.5C7.00005 2.5 8.00005 4.5 8.00005 4.5C8.00005 4.5 9.00005 2.5 11.0288 2.5C12.6775 2.5 13.9832 3.87937 14 5.52531C14.0344 8.94187 11.2897 11.3716 8.2813 13.4134C8.19836 13.4699 8.10036 13.5 8.00005 13.5C7.89973 13.5 7.80174 13.4699 7.7188 13.4134C4.71067 11.3716 1.96598 8.94187 2.00005 5.52531C2.01692 3.87937 3.32255 2.5 4.9713 2.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="like-count2">40</span>
+            </li>
+        </ul>
+    </div> <!-- end card-meta -->
+    
+    <h1>Dhokla</h1>
+    
+    <p class="recipe-description">
+        It is a thick fermented gram flour and yogurt batter steamed till it is like a soft. Cooled, cut into squares tempered with mustard seeds.
+    </p>
+    
+    <div class="read-more">
+        <a href="detailed_recipe2.html">Read More</a>
+    </div>
+</div>
+
+<div class="recipe-card">
+    <figure>
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/02/butter-chicken-ac2ff98.jpg?quality=90&resize=440,400" alt="Cover image" />
+    </figure>
+    
+    <div class="card-meta" >
+        <p class="dish-type">Main Course</p>
+        
+        <ul class="dish-stats">
+            <li>
+				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 2C4.6875 2 2 4.6875 2 8C2 11.3125 4.6875 14 8 14C11.3125 14 14 11.3125 14 8C14 4.6875 11.3125 2 8 2Z" stroke-miterlimit="10"/>
+					<path d="M8 4V8.5H11" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				45 min
+			</li>
+            <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" id="heart-icon2" onclick="toggleLike2()">
+                    <path d="M4.9713 2.5C7.00005 2.5 8.00005 4.5 8.00005 4.5C8.00005 4.5 9.00005 2.5 11.0288 2.5C12.6775 2.5 13.9832 3.87937 14 5.52531C14.0344 8.94187 11.2897 11.3716 8.2813 13.4134C8.19836 13.4699 8.10036 13.5 8.00005 13.5C7.89973 13.5 7.80174 13.4699 7.7188 13.4134C4.71067 11.3716 1.96598 8.94187 2.00005 5.52531C2.01692 3.87937 3.32255 2.5 4.9713 2.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span id="like-count2">65</span>
+            </li>
+        </ul>
+    </div> <!-- end card-meta -->
+    
+    <h1>Butter Chicken</h1>
+    
+    <p class="recipe-description">
+        It is a rich and creamy curry made with tender chicken pieces cooked in a tomato-based sauce with a generous amount of butter and cream. The chicken is typically marinated in a spiced yogurt.
+    </p>
+    
+    <div class="read-more">
+        <a href="detailed_recipe2.html">Read More</a>
+    </div>
+</div>
+
+<script>
+  let liked = false;
+
+  function toggleLike() {
+    liked = !liked;
+    const heartIcon = document.getElementById('heart-icon');
+    const likeCount = document.getElementById('like-count');
+    if (liked) {
+      heartIcon.style.fill = 'red'; // Change the color to red when liked
+      likeCount.textContent = parseInt(likeCount.textContent) + 1; // Increase like count
+    } else {
+      heartIcon.style.fill = ''; // Reset color when unliked
+      likeCount.textContent = parseInt(likeCount.textContent) - 1; // Decrease like count
+    }
+  }
+
+  let liked2 = false;
+
+  function toggleLike2() {
+    liked2 = !liked2;
+    const heartIcon = document.getElementById('heart-icon2');
+    const likeCount = document.getElementById('like-count2');
+    if (liked2) {
+      heartIcon.style.fill = 'red'; // Change the color to red when liked
+      likeCount.textContent = parseInt(likeCount.textContent) + 1; // Increase like count
+    } else {
+      heartIcon.style.fill = ''; // Reset color when unliked
+      likeCount.textContent = parseInt(likeCount.textContent) - 1; // Decrease like count
+    }
+  }
+</script>
+
+</body>
+</html>
